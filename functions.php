@@ -16,7 +16,7 @@ $userInputLength = (int)$userInputLengthAsString;
  * Takes posts and railings input by user and determines the amount of posts
  * and fences that can be used to build the fence. Then calls addPostAndRailingLength
  */
-function getMaxLength(int $userInputRailings, int $userInputPosts)
+function getMaxLength(int $userInputRailings, int $userInputPosts) :float
 {
     if ($userInputPosts > $userInputRailings) {
         $posts = $userInputRailings + 1;
@@ -55,7 +55,7 @@ function addPostandRailingLength(int $posts, int $railings)
     return $totalLength;
 }
 
-function calculatePossibleFenceLength($length){
+function calculatePossibleFenceLength(float $length){
     $postCounter = POST_LENGTH;
     $i = 0;
     while($postCounter < $length){
