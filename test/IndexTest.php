@@ -15,7 +15,7 @@ class IndexTest extends TestCase
         $this->assertEquals($expectedResult, $result);
     }
 
-    public function testPostAndRailingLength_calculatesCorrectly()
+    public function testaddPostAndRailingLength_calculatesCorrectly()
     {
         $expectedResult = 8.1;
 
