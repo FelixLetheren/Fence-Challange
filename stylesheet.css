@@ -13,10 +13,51 @@ h1{
 }
 .field{
     width: 700px;
-    height:300px;
+    height:200px;
     display: flex;
     margin:0 auto;
     flex-direction: column;
     align-items: center;
+}
+.submit{
+    border-radius: 20%;
+    height:50px;
+    width:90px;
+    background-color: #FF6B6B;
+    color: #1A535C;
+    font-size: 20px;
+    border: 2px solid black;
+}
+.submit-box-holder{
+    width:700px;
+    height:50px;
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+    align-items: center;
+}
+.submit-box-holder-second{
+    width:600px;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+    align-items: center;
+}
+.logo{
+    width:200px;
+    height:200px;
+}
+.img-holder{
+    width:200px;
+    height:200px;
+    margin:0 auto;
+}
+.input-box{
+    border-radius: 10%;
+    border:2px solid black;
+    height:50px;
+    font-size: 17px;
+    margin: 0 10px;
 
 }
